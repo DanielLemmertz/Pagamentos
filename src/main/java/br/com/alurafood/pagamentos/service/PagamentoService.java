@@ -22,7 +22,6 @@ public class PagamentoService {
     private ModelMapper modelMapper;
 
 
-
     public Page<PagamentoDto> obterTodos(Pageable paginacao) {
         return repository
                 .findAll(paginacao)
